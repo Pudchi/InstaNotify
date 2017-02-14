@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.pudchi.slidewarn.report_pop"
+    android:background="#282e40"
+    android:backgroundTintMode="src_in">
+
+    <ImageView
+        android:layout_width="85dp"
+        android:layout_height="100dp"
+        android:id="@+id/personalpic"
+        android:src="@drawable/ic_assignment_ind_white_48dp"
+        android:layout_marginBottom="30dp"
+        android:layout_above="@+id/foundreport"
+        android:layout_alignParentStart="true"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignTop="@+id/personalpic"
+        android:layout_toEndOf="@+id/personalpic"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/name_lbl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="姓名: "
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="10dp"
+            android:layout_alignTop="@+id/personalpic"
+            android:layout_centerHorizontal="true"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:id="@+id/name_txt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:textStyle="normal"
+            android:textColor="#ffffff"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/linearLayout"
+        android:layout_toRightOf="@+id/personalpic">
+
+        <TextView
+            android:id="@+id/live_lbl"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="居住地:"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:layout_below="@+id/linearLayout2"
+            android:layout_toRightOf="@+id/personalpic"
+            android:layout_weight="1.25"
+            android:layout_marginLeft="10dp"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:id="@+id/live_txt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:textStyle="normal"
+            android:textColor="#ffffff"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/linearLayout2"
+        android:layout_toEndOf="@+id/personalpic">
+
+        <TextView
+            android:id="@+id/time_lbl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="走失時間:"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:layout_below="@+id/linearLayout2"
+            android:layout_toRightOf="@+id/personalpic"
+            android:layout_weight="0.24"
+            android:layout_marginLeft="10dp"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:id="@+id/time_txt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:textStyle="normal"
+            android:textColor="#ffffff"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="已找到!\n回報系統!"
+        android:id="@+id/foundreport"
+        android:textStyle="bold"
+        android:textSize="35dp"
+        android:layout_marginBottom="110dp"
+        android:maxLines="2"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"
+        android:clickable="true"
+        />
+
+</RelativeLayout>

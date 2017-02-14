@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.pudchi.slidewarn.common_qa">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView_q_a"
+        android:background="#ff263238">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/qa_pic"
+                android:src="@drawable/q_and_a"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="12dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="12dp"
+                android:textSize="20sp"
+                android:text="1. 為什麼無法看到歷史紀錄?"
+                android:textColor="#f7f7f7"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/a1"
+                android:layout_marginTop="8dp"
+                android:text="歷史紀錄需用個人帳號登入App\n請確認您是否登入\n若登入後依然無法查看\n煩請透過「聯絡客服」回報此問題"
+                android:textSize="20sp"
+                android:textColor="#ff8c8c"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="12dp"
+                android:textSize="20sp"
+                android:text="2. 為什麼無法在App裡註冊帳戶?"
+                android:textColor="#f7f7f7"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="App只是系統一個附加功能\n若要註冊帳號, 請至主系統網站"
+                android:textSize="20sp"
+                android:textColor="#ff8c8c"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="http://140.134.26.9/"
+                android:autoLink="web"
+                android:layout_gravity="center_horizontal"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:textColor="#00ffee"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="12dp"
+                android:textSize="20sp"
+                android:text="3. 為什麼定位所在位置與我現在位置有很大的差別?"
+                android:textColor="#f7f7f7"
+                android:gravity="center_horizontal"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="若手機未開啟定位\n位置會是上一次回傳Google的定位資訊\n請至手機設定中的定位更改設定\n以獲得較準確定位"
+                android:textSize="20sp"
+                android:textColor="#ff8c8c"
+                android:layout_marginLeft="28dp"
+                android:layout_marginRight="28dp"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="12dp"
+                android:textSize="20sp"
+                android:text="如有上述未提到的疑問\n請使用右上方設定中\n 聯絡我們 詢問"
+                android:textColor="#60e5ff"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="26dp"
+                android:gravity="center_horizontal"/>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+
+</RelativeLayout>

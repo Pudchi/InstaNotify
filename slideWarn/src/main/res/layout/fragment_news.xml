@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fef7ef">
+
+    <TextView
+        android:id="@+id/tvnew"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="生活通知"
+        android:textColor="#ff4500"
+        android:textSize="38sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/weathertext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/news1"
+        android:layout_below="@+id/tvnew"
+        android:layout_marginLeft="46dp"
+        android:layout_marginTop="17dp"
+        android:text="天氣訊息"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+
+    <ImageButton
+        android:id="@+id/refresh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/tvnew"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="64dp"
+        android:layout_toEndOf="@+id/weathertext"
+        android:src="@drawable/ic_replay_black_24dp"/>
+
+    <TextView
+        android:id="@+id/reflash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/refresh"
+        android:layout_alignTop="@+id/tvnew"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="74dp"
+        android:layout_toEndOf="@+id/refresh"
+        android:maxLines="2"
+        android:text="按此更新"
+        android:textColor="#800000"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/news1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/weathertext"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:cursorVisible="false"
+        android:editable="false"
+        android:focusable="false"
+        android:gravity="center_horizontal"
+        android:inputType="textMultiLine"
+        android:maxLines="3"
+        android:scrollHorizontally="false"
+        android:text="→天災消息←\n請按上方按鈕刷新"
+        android:textColor="#000080"
+        android:textSize="24sp"
+        />
+
+    <EditText
+        android:id="@+id/news2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/news1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:autoText="false"
+        android:cursorVisible="false"
+        android:editable="false"
+        android:focusable="false"
+        android:gravity="center"
+        android:inputType="textMultiLine"
+        android:maxLines="3"
+        android:scrollHorizontally="false"
+        android:text="→天氣消息←"
+        android:textColor="#000080"
+        android:textSize="22sp"/>
+
+    <TextView
+        android:id="@+id/explanation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/news2"
+        android:layout_alignStart="@+id/news2"
+        android:layout_below="@+id/news2"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="刷新後, 如有訊息\n可點擊進入氣象局詳細網頁檢視"
+        android:textColor="#800080"
+        android:textIsSelectable="false"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/coupon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/news2"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="22dp"
+
+        android:text="優惠訊息"
+        android:textColor="#ff0000"
+        android:textSize="33sp"/>
+
+    <Button
+        android:id="@+id/airpagebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/news2"
+        android:layout_marginBottom="22dp"
+        android:text="空氣品質"
+        android:textColor="#8b4513"
+        android:textSize="33sp"/>
+
+</RelativeLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d3ffd0">
+
+    <TextView
+        android:id="@+id/tvhis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="進階通知"
+        android:textColor="#191970"
+        android:textSize="40sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/warn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvhis"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="44dp"
+        android:text="志工"
+        android:textColor="#0000ff"
+        android:textSize="35sp"
+        />
+
+    <Button
+        android:id="@+id/contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="派車"
+        android:textColor="#0000ff"
+        android:textSize="35sp"
+        android:layout_below="@+id/warn"
+        android:layout_alignStart="@+id/warn"
+        android:layout_marginTop="25dp" />
+
+    <Button
+        android:id="@+id/resource"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/warn"
+        android:layout_below="@+id/contact"
+        android:layout_marginTop="30dp"
+        android:text="募資"
+        android:textColor="#0000ff"
+        android:textSize="35sp"
+        />
+
+</RelativeLayout>

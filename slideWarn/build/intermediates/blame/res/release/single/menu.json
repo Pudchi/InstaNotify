@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "C:\\Users\\pudchi\\AndroidStudioProjects\\SlideWarn\\slideWarn\\build\\intermediates\\res\\merged\\release\\menu\\menu_news_coupon.xml",
+        "source": "C:\\Users\\pudchi\\AndroidStudioProjects\\SlideWarn\\slideWarn\\src\\main\\res\\menu\\menu_news_coupon.xml"
+    },
+    {
+        "merged": "C:\\Users\\pudchi\\AndroidStudioProjects\\SlideWarn\\slideWarn\\build\\intermediates\\res\\merged\\release\\menu\\menu_historydbview.xml",
+        "source": "C:\\Users\\pudchi\\AndroidStudioProjects\\SlideWarn\\slideWarn\\src\\main\\res\\menu\\menu_historydbview.xml"
+    },
+    {
+        "merged": "C:\\Users\\pudchi\\AndroidStudioProjects\\SlideWarn\\slideWarn\\build\\intermediates\\res\\merged\\release\\menu\\menu_news_air.xml",
+        "source": "C:\\Users\\pudchi\\AndroidStudioProjects\\SlideWarn\\slideWarn\\src\\main\\res\\menu\\menu_news_air.xml"
+    },
+    {
+        "merged": "C:\\Users\\pudchi\\AndroidStudioProjects\\SlideWarn\\slideWarn\\build\\intermediates\\res\\merged\\release\\menu\\menu.xml",
+        "source": "C:\\Users\\pudchi\\AndroidStudioProjects\\SlideWarn\\slideWarn\\src\\main\\res\\menu\\menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\pudchi\\AndroidStudioProjects\\SlideWarn\\slideWarn\\build\\intermediates\\res\\merged\\release\\menu\\menu_advresource.xml",
+        "source": "C:\\Users\\pudchi\\AndroidStudioProjects\\SlideWarn\\slideWarn\\src\\main\\res\\menu\\menu_advresource.xml"
+    },
+    {
+        "merged": "C:\\Users\\pudchi\\AndroidStudioProjects\\SlideWarn\\slideWarn\\build\\intermediates\\res\\merged\\release\\menu\\menu_dbloginpage.xml",
+        "source": "C:\\Users\\pudchi\\AndroidStudioProjects\\SlideWarn\\slideWarn\\src\\main\\res\\menu\\menu_dbloginpage.xml"
+    },
+    {
+        "merged": "C:\\Users\\pudchi\\AndroidStudioProjects\\SlideWarn\\slideWarn\\build\\intermediates\\res\\merged\\release\\menu\\menu_advcar.xml",
+        "source": "C:\\Users\\pudchi\\AndroidStudioProjects\\SlideWarn\\slideWarn\\src\\main\\res\\menu\\menu_advcar.xml"
+    },
+    {
+        "merged": "C:\\Users\\pudchi\\AndroidStudioProjects\\SlideWarn\\slideWarn\\build\\intermediates\\res\\merged\\release\\menu\\menu_dbhistorylist.xml",
+        "source": "C:\\Users\\pudchi\\AndroidStudioProjects\\SlideWarn\\slideWarn\\src\\main\\res\\menu\\menu_dbhistorylist.xml"
+    },
+    {
+        "merged": "C:\\Users\\pudchi\\AndroidStudioProjects\\SlideWarn\\slideWarn\\build\\intermediates\\res\\merged\\release\\menu\\menu_advhelper.xml",
+        "source": "C:\\Users\\pudchi\\AndroidStudioProjects\\SlideWarn\\slideWarn\\src\\main\\res\\menu\\menu_advhelper.xml"
+    },
+    {
+        "merged": "C:\\Users\\pudchi\\AndroidStudioProjects\\SlideWarn\\slideWarn\\build\\intermediates\\res\\merged\\release\\menu\\menu_favshow.xml",
+        "source": "C:\\Users\\pudchi\\AndroidStudioProjects\\SlideWarn\\slideWarn\\src\\main\\res\\menu\\menu_favshow.xml"
+    },
+    {
+        "merged": "C:\\Users\\pudchi\\AndroidStudioProjects\\SlideWarn\\slideWarn\\build\\intermediates\\res\\merged\\release\\menu\\main.xml",
+        "source": "C:\\Users\\pudchi\\AndroidStudioProjects\\SlideWarn\\slideWarn\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\pudchi\\AndroidStudioProjects\\SlideWarn\\slideWarn\\build\\intermediates\\res\\merged\\release\\menu\\menu_login.xml",
+        "source": "C:\\Users\\pudchi\\AndroidStudioProjects\\SlideWarn\\slideWarn\\src\\main\\res\\menu\\menu_login.xml"
+    }
+]

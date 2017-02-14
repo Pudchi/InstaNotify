@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">即時通知系統</string>
+    <string name="action_settings">App設定</string>
+    <string name="title_activity_advcar">進階通知－派車</string>
+    <string name="title_activity_advhelper">進階通知－志工</string>
+    <string name="title_activity_dbhistorylist">歷史紀錄</string>
+    <string name="title_activity_advresource">進階通知－募資</string>
+    <string name="title_activity_dbloginpage">歷史紀錄</string>
+    <string name="title_activity_historydbview">歷史紀錄</string>
+    <string name="title_activity_login">登入</string>
+    <string name="title_activity_news_coupon">優惠訊息</string>
+    <string name="title_activity_news_air">即時空氣品質-環保署網頁</string>
+    <string name="title_activity_favshow">我的最愛</string>
+    <string name="login_logout">登入/登出</string>
+    <string name="about">關於App</string>
+    <string name="contactus">聯絡我們</string>
+    <string name="title_activity_warn_pop">緊急通知</string>
+    <string name="title_activity_report_pop">走失回報</string>
+    <string name="News_coupon_mall">量販店</string>
+    <string name="News_coupon_store">便利商店</string>
+    <string name="commonqa">常見問題</string>
+    <string name="common_qa">常見問題</string>
+    <string name="gcm_defaultSenderId">141975393120</string>
+    <string name="personal_info">帳號資料</string>
+
+</resources>

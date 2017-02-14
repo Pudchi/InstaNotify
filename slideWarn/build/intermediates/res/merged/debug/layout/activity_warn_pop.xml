@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.pudchi.slidewarn.warn_pop"
+    android:background="#a1d4fe">
+
+    <Button
+        android:layout_width="144dp"
+        android:layout_height="192dp"
+        android:text="外傷"
+        android:id="@+id/outwound"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#da0004"
+        android:textStyle="bold"
+        android:textSize="66sp"
+        />
+
+    <Button
+        android:layout_width="144dp"
+        android:layout_height="192dp"
+        android:text="心血管疾病"
+        android:id="@+id/heartp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="#ab5200"
+        android:textStyle="bold"
+        android:textSize="46sp"/>
+
+    <Button
+        android:layout_width="144dp"
+        android:layout_height="192dp"
+        android:text="器官問題"
+        android:id="@+id/insidebody"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:textStyle="bold"
+        android:textSize="50sp"
+        android:textColor="#6301ff"/>
+
+    <Button
+        android:layout_width="144dp"
+        android:layout_height="192dp"
+        android:text="其他"
+        android:id="@+id/other"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:textSize="66sp"
+        android:textStyle="bold"
+        android:textColor="#001b1b"
+        />
+</RelativeLayout>

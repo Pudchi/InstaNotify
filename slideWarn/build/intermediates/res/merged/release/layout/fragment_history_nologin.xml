@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#626262">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="如未登入\n無法顯示歷史紀錄\n請前往登入"
+        android:id="@+id/his_noligin_lbl"
+        android:layout_marginTop="123dp"
+        android:textStyle="bold"
+        android:textSize="38sp"
+        android:gravity="center_vertical|center_horizontal"
+        android:textColor="#f0f0f0"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="登入"
+        android:id="@+id/gotologin_his"
+        android:layout_marginTop="42dp"
+        android:textStyle="bold"
+        android:textSize="38sp"
+        android:layout_below="@+id/his_noligin_lbl"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>

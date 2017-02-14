@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.pudchi.slidewarn.News_coupon_mall"
+                android:background="@color/background_material_dark">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="優惠 - 量販店"
+        android:id="@+id/malltext"
+        android:textColor="#ff1493"
+        android:textSize="36sp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="45dp"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageButton
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:id="@+id/allconnect"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/allconnect_logo"
+        android:background="@color/button_material_light"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/malltext"/>
+
+    <ImageButton
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/a_mart"
+        android:src="@drawable/a_mart_new"
+        android:background="@color/button_material_light"
+        android:layout_marginTop="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/allconnect"/>
+
+</RelativeLayout>

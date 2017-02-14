@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView_about"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="#ff263238">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/app_icon"
+                android:src="@drawable/app_icon"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="幸福老化  即時通知系統"
+                android:textColor="#f7f7f7"
+                android:layout_gravity="center_horizontal"
+                android:textSize="28sp"
+                android:layout_marginTop="14dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="http://140.134.26.9/"
+                android:autoLink="web"
+                android:layout_gravity="center_horizontal"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:textColor="#00ffee"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/about_lbl"
+                android:text="開發者"
+                android:layout_marginTop="18dp"
+                android:textStyle="bold"
+                android:textSize="26sp"
+                android:textColor="#ff8c8c"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="黃品綸\n呂昀儒\n王裕鈞"
+                android:textStyle="bold"
+                android:textSize="24sp"
+                android:layout_marginTop="12dp"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#f7f7f7"
+                android:id="@+id/name"
+                android:gravity="center_horizontal"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="網頁版"
+                android:textColor="#f7f7f7"
+                android:layout_gravity="center_horizontal"
+                android:textSize="22sp"
+                android:layout_marginTop="14dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="http://140.134.26.9/Group7"
+                android:autoLink="web"
+                android:layout_gravity="center_horizontal"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:textColor="#ff00c3"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="網頁版提供 歷史紀錄\n及 通知事件圖表"
+                android:textSize="20sp"
+                android:layout_marginTop="8dp"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#f7f7f7"
+                android:gravity="center_horizontal"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+</RelativeLayout>

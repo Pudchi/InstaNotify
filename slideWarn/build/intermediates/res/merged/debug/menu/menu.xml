@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.pudchi.slidewarn.MainActivity">
+    
+
+    <item
+        android:id="@+id/personal_info"
+        android:orderInCategory="100"
+        android:title="@string/personal_info"
+        android:textSize="24sp"
+        android:showAsAction="never"/>
+
+    <item
+        android:id="@+id/login_logout"
+        android:orderInCategory="200"
+        android:title="@string/login_logout"
+        android:textSize="24sp"
+        android:showAsAction="never"/>
+
+    <item
+        android:id="@+id/commonqa"
+        android:orderInCategory="300"
+        android:title="@string/common_qa"
+        android:textSize="24sp"
+        android:showAsAction="never"/>
+
+    <item
+        android:id="@+id/contactus"
+        android:orderInCategory="400"
+        android:title="@string/contactus"
+        android:textSize="24sp"
+        android:showAsAction="never"/>
+
+
+    <item
+        android:id="@+id/about"
+        android:orderInCategory="500"
+        android:title="@string/about"
+        android:textSize="24sp"
+        android:showAsAction="never"/>
+
+
+</menu>

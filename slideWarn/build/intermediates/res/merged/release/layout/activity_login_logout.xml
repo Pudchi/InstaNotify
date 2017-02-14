@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#6d6d6d">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:scaleType="fitCenter"
+        android:layout_gravity="center"
+        android:id="@+id/slogan"
+        android:src="@drawable/slogan_new"
+        android:layout_marginRight="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="24dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/accountpic"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="128dp"
+        android:src="@drawable/account_circle_white_48dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/slogan" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/accountinput"
+        android:hint="  請輸入帳號  "
+        android:textColorHint="#ffffff"
+        android:layout_alignTop="@+id/accountpic"
+        android:singleLine="true"
+        android:textColor="#ffffff"
+        android:gravity="center_horizontal"
+        android:layout_alignEnd="@+id/slogan"
+        android:layout_marginRight="15dp"
+        android:layout_alignStart="@+id/loginbutton"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/passwdpic"
+        android:src="@drawable/lock_white_48dp"
+        android:layout_below="@+id/accountpic"
+        android:layout_alignStart="@+id/accountpic"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:id="@+id/passwdinput"
+        android:hint="  請輸入密碼  "
+        android:textColorHint="#ffffff"
+        android:layout_alignBottom="@+id/passwdpic"
+        android:password="true"
+        android:singleLine="true"
+        android:imeOptions="actionDone"
+        android:textColor="#ffffff"
+        android:gravity="center_horizontal"
+        android:layout_above="@+id/accountinput"
+        android:layout_alignEnd="@+id/slogan"
+        android:layout_alignStart="@+id/accountinput"
+        android:layout_marginRight="15dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="登入"
+        android:id="@+id/loginbutton"
+        android:textColor="#333333"
+        android:textSize="36sp"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/passwdinput"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/error"
+        android:layout_below="@+id/loginbutton"
+        android:layout_centerHorizontal="true"
+        android:textColor="#f7f7f7"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"/>
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/login_progressBar"
+        android:layout_marginTop="14dp"
+        android:layout_below="@+id/error"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:indeterminate="false"/>
+
+</RelativeLayout>
