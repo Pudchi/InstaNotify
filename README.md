@@ -9,7 +9,12 @@ Used Techique:
 Java. Android. Google Cloud Messenging(Deprecated, Replaced by firebase)
 Microsoft SQL Server, JDBC(Tool that enable JAVA communicate with MSSQL)
                
-![app1](http://imgur.com/eAh7U77, "App Screenshot 1")
+![img](http://i.imgur.com/eAh7U77.jpg "App Screenshot 1")
+
+![img](http://i.imgur.com/X18MUOd.jpg "App Screenshot 2")
+
+![img](http://i.imgur.com/FoGJYWW.jpg "App Screenshot 3")
+
 
 GCM Device Token + Account ID與資料庫互動規則:
 1) 同一支手機 不同Account
