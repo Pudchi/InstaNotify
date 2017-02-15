@@ -27,8 +27,8 @@ import com.google.android.gms.common.GooglePlayServicesUtil;
 public class MainActivity extends FragmentActivity
 {
 
-    public static final String GCM_SENDER_ID = "141975393120";
-    public static final String SERVER_API_KEY = "AIzaSyAu7ObVTIrW6wfHslnvQ9TT1uzMMyTvvKQ";
+    public static final String GCM_SENDER_ID = "xxxxxxxxxxx";
+    public static final String SERVER_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
     static final int PLAY_SERVICES_RESOLUTION_REQUEST = 1001;
     static public boolean flag_refresh = false;
     static int login_state = 0;
